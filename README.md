@@ -1,3 +1,5 @@
+![image alt](https://github.com/D-ote/TopicModellingLlama2/blob/main/topics.png)
+
 # Topic Modeling with Llama 2 (using BERTopic)
 This project explores topic modeling using Llama 2 without requiring every document to be passed directly to the model. Instead, BERTopic, a modular topic modeling technique, is leveraged to fine-tune topic representations using LLMs (Large Language Models).
 
