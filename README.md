@@ -14,16 +14,16 @@ This project explores topic modeling using Llama 2 without requiring every docum
 
 ## Implementation Details
 - Data Source: ArXiv abstracts (diverse, structured, topic-rich).
-- Model Used: meta-llama/Llama-2-13b-chat-hf, optimized using 4-bit quantization for efficient execution on a T4 GPU.
+- Model Used: `meta-llama/Llama-2-13b-chat-hf`, optimized using 4-bit quantization for efficient execution on a T4 GPU.
 - Prompt Engineering: Custom templates guide Llama 2 to generate structured topic labels.
-- Embedding Model: BAAI/bge-small-en for converting abstracts into vectors.
+- Embedding Model: `BAAI/bge-small-en` for converting abstracts into vectors.
 - Dimensionality Reduction & Clustering: Using UMAP for dimensionality reduction and HDBSCAN for topic clustering.
 - Topic Representations: Multiple representations, including c-TF-IDF, KeyBERT, Maximal Marginal Relevance (MMR), and Llama 2 for enhanced labeling.
 
 ## Results & Visualization
 - **100+ topics generated** with diverse themes.
 - **Llama 2-generated topic labels** improve interpretability over traditional methods.
-- **Interactive visualization** using BERTopic’s visualize_documents() function to explore topic distributions.
+- **Interactive visualization** using BERTopic’s `visualize_documents()` function to explore topic distributions.
 
 ## Conclusion
 This project demonstrates an efficient and scalable approach to topic modeling with Llama 2 and BERTopic. It leverages advanced NLP techniques to generate interpretable, high-quality topic representations, making it a valuable tool for organizing and analyzing large text datasets.
